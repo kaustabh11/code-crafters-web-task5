@@ -1,0 +1,24 @@
+.profile-container {
+    margin-top: 150px;
+}
+
+.profile-container .profile-img img {
+    object-fit: contain;
+    height: 150px;
+}
+
+.profile-container .cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.error-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}

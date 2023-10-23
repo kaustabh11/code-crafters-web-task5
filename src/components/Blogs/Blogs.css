@@ -1,0 +1,63 @@
+.card {
+    width: 15rem;
+}
+.card-title, .myNotes {
+    font-weight: 600;
+}
+.editicons {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 833px) {
+    .card {
+        width: 190px;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+    .card {
+        width: 170px;
+    }
+}
+
+@media only screen and (min-width: 833px) {
+    .card {
+        width: 180px;
+    }
+}
+
+@media only screen and (min-width: 1046px) {
+    .card {
+        width: 230px;
+    }
+}
+
+.full-view .fullPrev {
+    object-fit:contain;
+    height: 50%;
+}
+
+.full-view .col-md-12 h3 {
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 35px;
+    overflow-wrap: break-word;
+    max-width: 180px;
+}
+
+.full-view .contentPrev {
+    margin-top: 80px !important;
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.author h4 {
+    font-size: 15px;
+    overflow-wrap: break-word;
+    max-width: 150px;
+}
